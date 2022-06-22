@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fabiano de Assis">
+    <title>Vetores</title>
+
+    <link rel="stylesheet" href="css/estilo.css" media="all" />
+
+    <style>
+        h1{text-align: center;}
+    </style>
+
+    </head>
+<body style="background-image: url(imagem/04161024352601.jpg);">
+    <header>
+        <!-- onmouseover quando o mouse passar já aparece a caixa de diálogo -->
+        <h1>Arrays (Vetores)</h1>
+    </header>
+    <main>
+        <div class="form">
+            <div class="container">
+                <form onsubmit="return false;">
+                    <label>Informe 4 nomes</label><hr>
+                    <input type="text" placeholder="1º nome" id="nome1" /><br><br>
+                    <input type="text" placeholder="2º nome" id="nome2" /><br><br>
+                    <input type="text" placeholder="3º nome" id="nome3" /><br><br>
+                    <input type="text" placeholder="4º nome" id="nome4" /><br><br>
+                    <button onclick="vetor();">Enviar</button>
+                </form> 
+            </div>           
+            <hr>
+            <!-- resultado -->
+            <div id="result"></div>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
